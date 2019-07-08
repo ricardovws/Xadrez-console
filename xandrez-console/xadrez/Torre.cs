@@ -57,7 +57,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.linha = pos.linha + 1;
+                pos.coluna = pos.coluna + 1;
             }
             //esquerda 
             pos.definirValores(posicao.linha, posicao.coluna-1);
@@ -68,7 +68,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.linha = pos.linha - 1;
+                pos.coluna = pos.coluna - 1;
             }
             return mat;
         }
