@@ -48,10 +48,10 @@ namespace xandrez_console
                     }
 
                 }
+                Console.Clear();
+                Tela.imprimirPartida(partida);
 
 
-                Tela.imprimirTabuleiro(partida.tab);
-                Console.WriteLine();
             }
             catch (TabuleiroException e)
             {
